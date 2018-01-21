@@ -1,0 +1,30 @@
+2.
+____________________________________________________
+#include "stdafx.h"
+#include <iostream>
+#include <math.h> 
+using namespace std;
+
+
+
+int main()
+{
+	float x, result = 0;
+	cout << "Enter X: ";
+	cin >> x;
+
+	result = cos(5*x) + exp(3*x) + abs(x);
+
+	cout << "Amount: " << result << endl;
+	system("PAUSE");
+    return 0;
+}
+____________________________________________________
+
+4.
+____________________________________________________
+
+2e + 1 + 10e - 1 = 12e || (32.61938)
+____________________________________________________
+
+
